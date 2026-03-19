@@ -1,0 +1,68 @@
+/* Section */
+.Portfolio {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Heading */
+.Portfolio h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+/* Grid */
+.Portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Card */
+.project {
+  position: relative;
+  height: 180px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+/* Hover overlay effect */
+.project::before {
+  content: "View Project";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.project:hover::before {
+  opacity: 1;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .project {
+    height: 150px;
+  }
+}

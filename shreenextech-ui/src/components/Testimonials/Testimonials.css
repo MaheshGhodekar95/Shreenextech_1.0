@@ -1,0 +1,56 @@
+/* Section with gradient */
+.Testimonials {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #7a5364, #cd2da8);
+  color: white;
+}
+
+/* Heading */
+.Testimonials h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+/* Container */
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Card */
+.Testimonial {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 300px;
+  backdrop-filter: blur(10px); /* glass effect */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* Text */
+.Testimonial p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* Name */
+.Testimonial h4 {
+  color: #ffd700;
+}
+
+/* Hover */
+.Testimonial:hover {
+  transform: translateY(-10px);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .testimonial-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

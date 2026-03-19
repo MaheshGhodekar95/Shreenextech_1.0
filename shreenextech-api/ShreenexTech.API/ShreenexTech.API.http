@@ -1,0 +1,6 @@
+@ShreenexTech.API_HostAddress = http://localhost:5142
+
+GET {{ShreenexTech.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,42 @@
+.mobile-page{
+  padding:120px 8%;
+  max-width:1000px;
+  margin:auto;
+}
+
+.mobile-page h1{
+  font-size:40px;
+  color:#0f172a;
+  margin-bottom:20px;
+}
+
+.mobile-intro{
+  font-size:17px;
+  color:#475569;
+  margin-bottom:25px;
+  line-height:1.7;
+}
+
+.mobile-page h2{
+  margin-top:35px;
+  font-size:26px;
+  color:#111827;
+}
+
+.mobile-list{
+  margin-top:15px;
+  margin-left:20px;
+}
+
+.mobile-list li{
+  margin-bottom:10px;
+  font-size:16px;
+  color:#374151;
+}
+
+.mobile-tech{
+  margin-top:15px;
+  padding:15px;
+  background:#f1f5f9;
+  border-radius:8px;
+}

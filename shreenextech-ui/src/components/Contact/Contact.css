@@ -1,0 +1,38 @@
+/* Section */
+.Contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+}
+
+/* Heading */
+.Contact h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Subtext */
+.Contact p {
+  margin-bottom: 30px;
+  color: #e0e0e0;
+}
+
+/* Button */
+.contact-btn {
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px; /* pill shape */
+  background: white;
+  color: #007bff;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+/* Hover */
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}

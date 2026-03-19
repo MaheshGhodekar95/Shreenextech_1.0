@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ShreenexTech.API.Controllers.PortfolioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Portfolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
