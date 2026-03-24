@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "PortfolioController",
+    "Method": "Create",
+    "RelativePath": "api/Portfolio/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "ShreenexTech.API.Application.Features.Portfolios.Command.CreatePortfolio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PortfolioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Portfolio/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

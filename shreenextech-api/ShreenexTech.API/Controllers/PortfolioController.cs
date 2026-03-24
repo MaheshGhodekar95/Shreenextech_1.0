@@ -1,43 +1,32 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using ShreenexTech.API.Data;
+using ShreenexTech.API.Application.Features.Portfolios.Command;
+using ShreenexTech.API.Application.Features.Portfolios.Query;
 
-namespace ShreenexTech.API.Controllers
+[Route("api/[controller]")]
+[ApiController]
+public class PortfolioController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class PortfolioController : ControllerBase
+    private readonly IMediator _mediator;
+
+    public PortfolioController(IMediator mediator)
     {
-        private readonly AppDbContext _context;
+        _mediator = mediator;
+    }
 
-        public PortfolioController(AppDbContext context)
-        {
-            _context = context;
-        }
+    [HttpPost]
+    [Route("Create")]
+    public async Task<IActionResult> Create([FromBody] CreatePortfolio command)
+    {
+        var result = await _mediator.Send(command);
+        return Ok(result);
+    }
 
-        // GET: api/portfolio
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            var data = _context.Portfolio
-                .Select(p => new
-                {
-                    p.Id,
-                    p.Title,
-                    p.ImageUrl
-                })
-                .ToList();
-
-            return Ok(data);
-        }
-        [HttpGet]
-        public IActionResult GetProjectById(int Id)
-        {
-            var data = _context.Portfolio
-                .Select(p => p.Id == Id); 
-                
-
-            return Ok(data);
-        }
+    [HttpGet]
+    [Route("GetAll")]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _mediator.Send(new GetAllPortfolios());
+        return Ok(result);
     }
 }

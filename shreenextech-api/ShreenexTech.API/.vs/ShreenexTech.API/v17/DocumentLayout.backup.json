@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\",
+  "WorkspaceRootPath": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\domain\\entities\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:domain\\entities\\teammember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\application\\features\\portfolios\\command\\deleteportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:application\\features\\portfolios\\command\\deleteportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\shreenextech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:shreenextech.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|e:\\my_company\\shreenextech-api\\shreenextech.api\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|c:\\users\\amol\\source\\repos\\shreenextech_1.0\\shreenextech-api\\shreenextech.api\\application\\features\\portfolios\\query\\getallportfoilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892B66DF-C124-E6DA-B54C-421AFF4046F7}|ShreenexTech.API.csproj|solutionrelative:application\\features\\portfolios\\query\\getallportfoilos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:19:22.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:16:50.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Portfolio.cs",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Models\\Portfolio.cs",
-              "RelativeDocumentMoniker": "Models\\Portfolio.cs",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Models\\Portfolio.cs",
-              "RelativeToolTip": "Models\\Portfolio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:15:47.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShreenexTech.API.csproj",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\ShreenexTech.API.csproj",
-              "RelativeDocumentMoniker": "ShreenexTech.API.csproj",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\ShreenexTech.API.csproj",
-              "RelativeToolTip": "ShreenexTech.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-18T20:14:24.767Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-18T20:13:24.69Z",
+              "Title": "TeamMember.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Domain\\Entities\\TeamMember.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\TeamMember.cs",
+              "ToolTip": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Domain\\Entities\\TeamMember.cs",
+              "RelativeToolTip": "Domain\\Entities\\TeamMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:47:09.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PortfolioController.cs",
-              "DocumentMoniker": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Controllers\\PortfolioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
-              "ToolTip": "E:\\My_Company\\shreenextech-api\\ShreenexTech.API\\Controllers\\PortfolioController.cs",
-              "RelativeToolTip": "Controllers\\PortfolioController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Title": "DeletePortfolio.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Features\\Portfolios\\Command\\DeletePortfolio.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Portfolios\\Command\\DeletePortfolio.cs",
+              "ToolTip": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Features\\Portfolios\\Command\\DeletePortfolio.cs",
+              "RelativeToolTip": "Application\\Features\\Portfolios\\Command\\DeletePortfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T20:33:58.126Z"
+              "WhenOpened": "2026-03-24T05:29:25.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\Source\\Repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\AMOL\\Source\\Repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:22:01.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T03:56:55.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:25:32.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\AMOL\\source\\repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T06:23:29.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllPortfoilos.cs",
+              "DocumentMoniker": "C:\\Users\\AMOL\\Source\\Repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Features\\Portfolios\\Query\\GetAllPortfoilos.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Portfolios\\Query\\GetAllPortfoilos.cs",
+              "ToolTip": "C:\\Users\\AMOL\\Source\\Repos\\Shreenextech_1.0\\shreenextech-api\\ShreenexTech.API\\Application\\Features\\Portfolios\\Query\\GetAllPortfoilos.cs",
+              "RelativeToolTip": "Application\\Features\\Portfolios\\Query\\GetAllPortfoilos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:26:41.766Z",
+              "EditorCaption": ""
             }
           ]
         }
