@@ -147,3 +147,13 @@ C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\ob
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

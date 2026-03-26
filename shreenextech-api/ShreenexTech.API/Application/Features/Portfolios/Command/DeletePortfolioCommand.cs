@@ -2,7 +2,7 @@
 
 namespace ShreenexTech.API.Application.Features.Portfolios.Command
 {
-    public class DeletePortfolio : IRequest<Guid>
+    public class DeletePortfolioCommand : IRequest<bool>
     {
         public Guid Id { get; set; }
     }

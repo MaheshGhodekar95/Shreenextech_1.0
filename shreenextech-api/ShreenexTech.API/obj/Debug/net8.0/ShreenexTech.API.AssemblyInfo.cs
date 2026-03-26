@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShreenexTech.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c6f106112665d567e1b5a483f24a1741b0a6e7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4190af47efcaf0dde2ed273c5b8377728db8eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShreenexTech.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShreenexTech.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

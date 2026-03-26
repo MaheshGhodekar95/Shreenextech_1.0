@@ -1,0 +1,72 @@
+2026-03-25 19:30:34.038 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-25 19:30:34.325 +05:30 [INF] Hosting environment: Development
+2026-03-25 19:30:34.327 +05:30 [INF] Content root path: C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API
+2026-03-25 19:30:34.018 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/ - null null
+2026-03-25 19:30:38.441 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/ - 404 null null 4465.5736ms
+2026-03-25 19:30:38.449 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44335/, Response status code: 404
+2026-03-25 19:30:52.492 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger - null null
+2026-03-25 19:31:08.812 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger - 301 null null 16355.7318ms
+2026-03-25 19:31:08.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.html - null null
+2026-03-25 19:31:09.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/index.html - 200 null text/html;charset=utf-8 632.4739ms
+2026-03-25 19:31:11.471 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.css - null null
+2026-03-25 19:31:11.487 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-25 19:31:11.488 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-25 19:31:11.502 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - null null
+2026-03-25 19:31:11.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 22.9438ms
+2026-03-25 19:31:11.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/swagger-ui.css - null null
+2026-03-25 19:31:11.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/swagger-ui-bundle.js - null null
+2026-03-25 19:31:11.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/index.css - 200 152 text/css 86.739ms
+2026-03-25 19:31:11.557 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/index.js - null null
+2026-03-25 19:31:11.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/swagger-ui.css - 200 26388 text/css 46.3973ms
+2026-03-25 19:31:11.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/index.js - 200 null application/javascript;charset=utf-8 7.0525ms
+2026-03-25 19:31:11.578 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/swagger-ui-standalone-preset.js - 200 76581 text/javascript 103.3104ms
+2026-03-25 19:31:11.627 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/swagger-ui-bundle.js - 200 417806 text/javascript 93.0073ms
+2026-03-25 19:31:11.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - 200 null text/javascript; charset=UTF-8 177.7687ms
+2026-03-25 19:31:12.120 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - null null
+2026-03-25 19:31:12.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.8548ms
+2026-03-25 19:34:35.833 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44335/api/Portfolio/GetAll - null null
+2026-03-25 19:34:35.975 +05:30 [INF] Executing endpoint 'PortfolioController.GetAllPortfolio (ShreenexTech.API)'
+2026-03-25 19:34:36.129 +05:30 [INF] Route matched with {action = "GetAllPortfolio", controller = "Portfolio"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPortfolio() on controller PortfolioController (ShreenexTech.API).
+2026-03-25 19:34:36.808 +05:30 [INF] Fetching all portfolio records started....
+2026-03-25 19:34:39.690 +05:30 [INF] Executed DbCommand (229ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[ClientName], [p].[CreatedDate], [p].[Description], [p].[ImageUrl], [p].[ProjectUrl], [p].[Technologies], [p].[Title]
+FROM [Portfolio] AS [p]
+2026-03-25 19:34:39.867 +05:30 [INF] Total portfolio records fetched and Count : 1
+2026-03-25 19:34:39.887 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShreenexTech.API.Domain.Entities.Portfolio, ShreenexTech.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-25 19:34:39.957 +05:30 [INF] Executed action PortfolioController.GetAllPortfolio (ShreenexTech.API) in 3821.3926ms
+2026-03-25 19:34:39.959 +05:30 [INF] Executed endpoint 'PortfolioController.GetAllPortfolio (ShreenexTech.API)'
+2026-03-25 19:34:39.984 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44335/api/Portfolio/GetAll - 200 null application/json; charset=utf-8 4175.6716ms
+2026-03-25 19:36:09.201 +05:30 [INF] Request starting HTTP/2 POST https://localhost:44335/api/Portfolio/Create - application/json 196
+2026-03-25 19:36:09.460 +05:30 [INF] CORS policy execution successful.
+2026-03-25 19:36:09.492 +05:30 [INF] Executing endpoint 'PortfolioController.CreatePortfolio (ShreenexTech.API)'
+2026-03-25 19:36:09.680 +05:30 [INF] Route matched with {action = "CreatePortfolio", controller = "Portfolio"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePortfolio(ShreenexTech.API.Application.Features.Portfolios.Command.CreatePortfolioCommand) on controller PortfolioController (ShreenexTech.API).
+2026-03-25 19:36:24.339 +05:30 [WRN] Required fields are Empty or Null...
+2026-03-25 19:36:24.596 +05:30 [INF] Executed action PortfolioController.CreatePortfolio (ShreenexTech.API) in 14913.8948ms
+2026-03-25 19:36:24.602 +05:30 [INF] Executed endpoint 'PortfolioController.CreatePortfolio (ShreenexTech.API)'
+2026-03-25 19:36:26.934 +05:30 [ERR] Error occurred. CorrelationId: 40000022-0000-fa00-b63f-84710c7967bb
+ShreenexTech.API.Application.Common.Exceptions.BadRequestException: Required parameters should not empty...
+   at ShreenexTech.API.Application.Handlers.CreatePortfolioHandler.Handle(CreatePortfolioCommand request, CancellationToken cancellationToken) in C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\Application\Handlers\CreatePortfolioHandler.cs:line 29
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at PortfolioController.CreatePortfolio(CreatePortfolioCommand command) in C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\Controllers\PortfolioController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ShreenexTech.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\Middleware\ExceptionMiddleware.cs:line 30
+2026-03-25 19:36:27.544 +05:30 [INF] Request finished HTTP/2 POST https://localhost:44335/api/Portfolio/Create - 400 null application/json 18390.0955ms
