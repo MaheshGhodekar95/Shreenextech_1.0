@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/shreenextech-api/ShreenexTech.API/.vs/ShreenexTech.API/copilot-chat/dbcc02fd/sessions
+/shreenextech-api/ShreenexTech.API/.vs/ShreenexTech.API/CopilotIndices/17.14.1641.39856
+/shreenextech-api/ShreenexTech.API/.vs/ShreenexTech.API/FileContentIndex
+/shreenextech-api/ShreenexTech.API/obj/Debug/net8.0
+/.vs/Shreenextech_1.0/v17
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/rpswa.dswa.cache.json
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/ShreenexTech.API.AssemblyInfoInputs.cache
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/ShreenexTech.API.assets.cache
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/ShreenexTech.API.csproj.AssemblyReference.cache
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/ShreenexTech.API.GeneratedMSBuildEditorConfig.editorconfig
+/shreenextech-api/ShreenexTech.API/obj/Debug/net9.0/ShreenexTech.API.AssemblyInfo.cs
+/shreenextech-api/ShreenexTech.API/.vs/ShreenexTech.API/v17/.suo
