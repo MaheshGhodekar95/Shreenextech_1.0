@@ -15,12 +15,14 @@ namespace ShreenexTech.API.Infrastructure.Repositories
 
         public async Task<List<T>> GetAllAsync()
         {
-            return await _context.Set<T>().ToListAsync();
+            return await _context.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(Guid id)
+        public async Task<T?> GetByIdAsync(Guid id)
         {
-            return await _context.Set<T>().FindAsync(id);
+            return await _context.Set<T>()
+                                 .AsNoTracking()
+                                 .FirstOrDefaultAsync(e => EF.Property<Guid>(e, "Id") == id);
         }
 
         public async Task<int> AddAsync(T entity)

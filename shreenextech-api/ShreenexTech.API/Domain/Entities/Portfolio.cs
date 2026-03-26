@@ -29,6 +29,6 @@ namespace ShreenexTech.API.Domain.Entities
 
         // Value is provided by the database via the DEFAULT (getdate()) constraint.
         [Column(TypeName = "datetime")]
-        public DateTime? CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }
