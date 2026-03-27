@@ -36,7 +36,8 @@ namespace ShreenexTech.API.Application.Handlers
 
                 if (result is null)
                 {
-                    throw new NotFoundException("Portfolio",request.Id);
+                    _logger.LogInformation("Record with Id : {Id} not found.", request.Id);
+                    throw new NotFoundException("Portfolio not found",request.Id);
                 }
                 else
                 {
@@ -44,12 +45,12 @@ namespace ShreenexTech.API.Application.Handlers
                     var portfolio = new Portfolio
                     {
                         Id = result.Id != Guid.Empty ? result.Id : Guid.Empty,
-                        Title = request.Title != String.Empty ? request.Title : result.Title,
-                        Description = request.Description != String.Empty ? request.Description : result.Description,
+                        Title = request.Title != String.Empty && request.Title is not null ? request.Title : result.Title,
+                        Description = request.Description != String.Empty && request.Description is not null ? request.Description : result.Description,
                         ImageUrl = request.ImageUrl != String.Empty ? request.ImageUrl : result.ImageUrl,
                         ProjectUrl = request.ProjectUrl != String.Empty ? request.ProjectUrl : result.ProjectUrl,
-                        ClientName = request.ClientName != String.Empty ? request.ClientName : result.ClientName,
-                        Technologies = request.Technologies != String.Empty ? request.Technologies : result.Technologies,
+                        ClientName = request.ClientName != String.Empty && request.ClientName is not null ? request.ClientName : result.ClientName,
+                        Technologies = request.Technologies != String.Empty && request.Technologies is not null ? request.Technologies : result.Technologies,
                         CreatedDate = result.CreatedDate != DateTime.MinValue ? result.CreatedDate : DateTime.UtcNow
                     };
 

@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using ShreenexTech.API.Application.Features.Portfolios.Command;
+using ShreenexTech.API.Application.Features.Services.Command;
 using ShreenexTech.API.Application.Interfaces;
 using ShreenexTech.API.Infrastructure.Data;
 using ShreenexTech.API.Infrastructure.Repositories;
@@ -21,6 +22,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddControllers();
 
 builder.Services.AddMediatR(typeof(CreatePortfolioCommand).Assembly);
+//builder.Services.AddMediatR(typeof(CreateServiceCommand).Assembly);
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 // CORS (?? MUST be here)
