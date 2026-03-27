@@ -8,6 +8,7 @@ namespace ShreenexTech.API.Domain.Entities
     public class Service
     {
         [Key]
+        [Required]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Title is required")]
@@ -18,7 +19,7 @@ namespace ShreenexTech.API.Domain.Entities
         public string Description { get; set; }
 
         [StringLength(200, ErrorMessage = "Icon path cannot exceed 200 characters")]
-        public string Icon { get; set; }
+        public string Icon { get; set; } 
 
         [Required]
         public bool IsActive { get; set; } = true;

@@ -44,7 +44,7 @@ public class PortfolioController : ControllerBase
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> DeletePortfolio([FromBody] DeletePortfolioCommand command)
+    public async Task<IActionResult> DeletePortfolio([FromQuery] DeletePortfolioCommand command)
     {
         bool result = await _mediator.Send(command);
         if (!result)
@@ -60,7 +60,7 @@ public class PortfolioController : ControllerBase
     public async Task<IActionResult> GetAllPortfolio()
     {
         var result = await _mediator.Send(new GetAllPortfoliosQuery());
-        if (result == null || !result.Any())
+        if (result == null)
         {
             return NotFound();
         }

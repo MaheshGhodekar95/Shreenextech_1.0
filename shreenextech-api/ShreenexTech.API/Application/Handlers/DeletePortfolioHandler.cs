@@ -23,7 +23,7 @@ namespace ShreenexTech.API.Application.Handlers
 
         public async Task<bool> Handle(DeletePortfolioCommand deletePortfolio, CancellationToken cancellationToken)
         {
-            if (deletePortfolio.Id != Guid.Empty && deletePortfolio.Id != null)
+            if (deletePortfolio == null || deletePortfolio.Id == Guid.Empty)
             {
                 _logger.LogWarning("ID is Empty or Null.");
                 throw new BadRequestException("Id is Required.");
@@ -32,7 +32,7 @@ namespace ShreenexTech.API.Application.Handlers
             {
                 _logger.LogInformation("Record deleting started with ID : {Id}.", deletePortfolio.Id);
                 await _repository.DeleteAsync(deletePortfolio.Id);
-                var result = await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 _logger.LogInformation("Record deleted Successfully with ID : {Id}.", deletePortfolio.Id);
                 return true;
             }
