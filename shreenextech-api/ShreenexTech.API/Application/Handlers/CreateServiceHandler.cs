@@ -22,17 +22,17 @@ namespace ShreenexTech.API.Application.Handlers
 
         public async Task<Guid> Handle(CreateServiceCommand request, CancellationToken cancellationToken)
         {
-            if (request is null || request.Id == Guid.Empty || request.Title == string.Empty)
+            if (request is null || request.Title == string.Empty)
             {
-                _logger.LogInformation("Required parameters ID,Titleare not provided.: {request}", request);
+                _logger.LogInformation("Required parameters are not provided.: {request}", request);
                 throw new BadRequestException("Required params are missing...");
             }
             else
             {
-                _logger.LogInformation("Inserting record started...  for ID : {Id}", request.Id);
+                _logger.LogInformation("Inserting record started...");
                 Service service = new Service()
                 {
-                    Id = request.Id,
+                    Id = Guid.NewGuid(),
                     Title = request.Title,
                     Icon = request.Icon == null ? string.Empty : request.Icon,
                     Description = request.Description == null ? string.Empty : request.Description,
