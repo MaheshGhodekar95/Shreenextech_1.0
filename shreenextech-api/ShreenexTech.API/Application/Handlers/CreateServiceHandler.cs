@@ -37,6 +37,8 @@ namespace ShreenexTech.API.Application.Handlers
                     Icon = request.Icon == null ? string.Empty : request.Icon,
                     Description = request.Description == null ? string.Empty : request.Description,
                     IsActive = request.IsActive,
+                    OurOffers = request.OurOffers,
+                    Technologies = request.Technologies,
                     CreatedDate = DateTime.UtcNow,
                 };
 
