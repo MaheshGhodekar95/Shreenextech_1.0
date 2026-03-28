@@ -2,26 +2,24 @@
 using ShreenexTech.API.Application.Common.DTO_s;
 using ShreenexTech.API.Application.Common.Exceptions;
 using ShreenexTech.API.Application.Features.Portfolios.Query;
-using ShreenexTech.API.Application.Features.Services.Query;
+using ShreenexTech.API.Application.Features.Testimonial.Query;
 using ShreenexTech.API.Application.Interfaces;
 using ShreenexTech.API.Domain.Entities;
 using ShreenexTech.API.Infrastructure.Data;
 
 namespace ShreenexTech.API.Application.Handlers
 {
-    public class GetServiceByIdHandler : IRequestHandler<GetServiceByIdQuery, GetServiceByIdDto>
+    public class GetTestimonialByIdHandler : IRequestHandler<GetTestimonialByIdQuery, GetTestimonialByIdDto>
     {
-        private readonly IRepository<Service> _repository;
-        private readonly AppDbContext _context;
-        ILogger<GetServiceByIdHandler> _logger;
-        public GetServiceByIdHandler(IRepository<Service> repository, AppDbContext context, ILogger<GetServiceByIdHandler> logger)
+        private readonly IRepository<Testimonial> _repository;
+        ILogger<GetTestimonialByIdHandler> _logger;
+        public GetTestimonialByIdHandler(IRepository<Testimonial> repository, ILogger<GetTestimonialByIdHandler> logger)
         {
             _repository = repository;
-            _context = context;
             _logger = logger;
         }
 
-        public async Task<GetServiceByIdDto> Handle(GetServiceByIdQuery request, CancellationToken cancellationToken)
+        public async Task<GetTestimonialByIdDto> Handle(GetTestimonialByIdQuery request, CancellationToken cancellationToken)
         {
             if (request.Id == Guid.Empty)
             {
@@ -34,26 +32,26 @@ namespace ShreenexTech.API.Application.Handlers
                 var result = await _repository.GetByIdAsync(request.Id);
                 if (result == null)
                 {
-                    throw new NotFoundException("Service Not Found.", request.Id);
+                    throw new NotFoundException("Testimonial Not Found.", request.Id);
                 }
                 else
                 {
-                    var service = new GetServiceByIdDto()
+                    var testimonial = new GetTestimonialByIdDto()
                     {
                         Id = result.Id,
-                        Icon= result.Icon,
-                        Title = result.Title,
-                        IsActive = result.IsActive,
-                        Description = result.Description,
-                        OurOffers = result.OurOffers,
-                        Technologies = result.Technologies,
+                        ClientImage = result.ClientImage,
+                        CompanyName = result.CompanyName,
+                        Feedback = result.Feedback,
+                        Rating = result.Rating,
+                        ClientName = result.ClientName,
                         CreatedDate = result.CreatedDate,
                     };
                     _logger.LogInformation("Record fetched for Id :{Id}", request.Id);
-                    return service;
+                    return testimonial;
                 }
             }
 
         }
     }
 }
+

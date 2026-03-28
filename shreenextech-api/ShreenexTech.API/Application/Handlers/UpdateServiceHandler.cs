@@ -47,7 +47,9 @@ namespace ShreenexTech.API.Application.Handlers
                         Description = request.Description != String.Empty && request.Description is not null ? request.Description : result.Description,
                         Icon = request.Icon != String.Empty && request.Icon is not null ? request.Icon : result.Icon,
                         IsActive = request.IsActive ,
-                        CreatedDate = result.CreatedDate != DateTime.MinValue ? result.CreatedDate : DateTime.UtcNow
+                        CreatedDate = result.CreatedDate != DateTime.MinValue ? result.CreatedDate : DateTime.UtcNow,
+                        OurOffers = request.OurOffers != String.Empty && request.OurOffers is not null ? request.OurOffers : result.OurOffers,
+                        Technologies = request.Technologies != String.Empty && request.Technologies is not null ? request.Technologies : result.Technologies
                     };
 
                     await _repository.UpdateAsync(service);

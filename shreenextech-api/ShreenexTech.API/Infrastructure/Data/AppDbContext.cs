@@ -23,6 +23,7 @@ namespace ShreenexTech.API.Infrastructure.Data
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Admin> Admins { get; set; }
+        public DbSet<Testimonial> Testimonials { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

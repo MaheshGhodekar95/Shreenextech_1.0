@@ -19,7 +19,7 @@ namespace ShreenexTech.API.Domain.Entities
         public string Description { get; set; }
 
         [StringLength(200, ErrorMessage = "Icon path cannot exceed 200 characters")]
-        public string Icon { get; set; } 
+        public string Icon { get; set; }
 
         [Required]
         public bool IsActive { get; set; } = true;
@@ -27,5 +27,13 @@ namespace ShreenexTech.API.Domain.Entities
         [Required]
         [DataType(DataType.DateTime)]
         public DateTime CreatedDate { get; set; } = DateTime.Now;
+
+        [Required]
+        [StringLength(1000, ErrorMessage = "OurOffers is too long")]
+        public string OurOffers { get; set; }
+
+        [Required]
+        public string Technologies { get; set; }
+        
     }
 }
