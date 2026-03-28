@@ -23,7 +23,7 @@ namespace ShreenexTech.API.Application.Handlers
 
         public async Task<Guid> Handle(CreatePortfolioCommand request, CancellationToken cancellationToken)
         {
-            if (request.Id == Guid.Empty || request.Title == string.Empty || request.Description == string.Empty || request.ClientName == string.Empty || request.Technologies == string.Empty)
+            if (request.Title == string.Empty || request.Description == string.Empty || request.ClientName == string.Empty || request.Technologies == string.Empty)
             {
                 _logger.LogWarning("Required fields are Empty or Null...");
                 throw new BadRequestException("Required parameters should not empty...");
@@ -33,7 +33,7 @@ namespace ShreenexTech.API.Application.Handlers
                 _logger.LogInformation("Inserting record started for : {request}",request);
                 var portfolio = new Portfolio
                 {
-                    Id = request.Id,
+                    Id = Guid.NewGuid(),
                     Title = request.Title,
                     Description = request.Description,
                     ImageUrl = request.ImageUrl,

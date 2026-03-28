@@ -4,7 +4,6 @@ namespace ShreenexTech.API.Application.Features.Portfolios.Command
 {
     public class CreatePortfolioCommand : IRequest<Guid>
     {
-        public Guid Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string? ImageUrl { get; set; }
