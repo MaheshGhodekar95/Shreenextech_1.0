@@ -157,3 +157,4 @@ C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bi
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\AMOL\Source\Repos\Shreenextech_1.0\shreenextech-api\ShreenexTech.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
