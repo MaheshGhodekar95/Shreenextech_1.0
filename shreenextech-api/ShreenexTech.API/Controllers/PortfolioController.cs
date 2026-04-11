@@ -1,9 +1,11 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using ShreenexTech.API.Application.Features.Portfolios.Command;
 using ShreenexTech.API.Application.Features.Portfolios.Query;
 
+[Authorize(Policy = "AdminOnly")]
 [Route("api/[controller]")]
 [ApiController]
 public class PortfolioController : ControllerBase
